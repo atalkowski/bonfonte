@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c160fc51-3539-4900-9662-49feca6e8b50" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bonfonte/alpha/Alpha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bonfonte/experiment/alpha/Alpha.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bonfonte/TestAlpha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bonfonte/TestAlpha.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bonfonte/alpha/TestAlpha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bonfonte/alpha/TestAlpha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bonfonte/graph/TestG1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bonfonte/graph/TestG1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +58,7 @@
       <recent name="com.bonfonte.proto.addressbook" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestAlpha">
+  <component name="RunManager" selected="JUnit.TestG2">
     <configuration name="Alpha" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bonfonte.experiment.alpha.Alpha" />
       <module name="api" />
@@ -69,52 +68,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestAddressBook (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.google.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.google.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.google.tests.TestAddressBook" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestAddressBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.google.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.google.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.google.tests.TestAddressBook" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestAddressBook.testToMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.google.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.google.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.google.tests.TestAddressBook" />
-      <option name="METHOD_NAME" value="testToMessage" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,13 +87,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestG1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bonfonte.graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bonfonte.graph" />
+      <option name="MAIN_CLASS_NAME" value="com.bonfonte.graph.TestG1" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestG1.testExample1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bonfonte.graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bonfonte.graph" />
+      <option name="MAIN_CLASS_NAME" value="com.bonfonte.graph.TestG1" />
+      <option name="METHOD_NAME" value="testExample1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestG2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bonfonte.graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bonfonte.graph" />
+      <option name="MAIN_CLASS_NAME" value="com.bonfonte.graph.TestG2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestG2" />
+        <item itemvalue="JUnit.TestG1" />
+        <item itemvalue="JUnit.TestG1.testExample1" />
         <item itemvalue="JUnit.TestAlpha" />
         <item itemvalue="Application.Alpha" />
-        <item itemvalue="JUnit.TestAddressBook" />
-        <item itemvalue="JUnit.TestAddressBook (1)" />
-        <item itemvalue="JUnit.TestAddressBook.testToMessage" />
       </list>
     </recent_temporary>
   </component>

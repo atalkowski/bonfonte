@@ -1,5 +1,6 @@
 package com.bonfonte.alpha;
 
+import com.bonfonte.experiment.alpha.Alpha;
 import org.junit.Assert;
 import org.junit.Test;
 

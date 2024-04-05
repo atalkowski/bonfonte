@@ -1,4 +1,4 @@
-package com.bonfonte.alpha;
+package com.bonfonte.experiment.alpha;
 
 import java.util.ArrayList;
 import java.util.List;

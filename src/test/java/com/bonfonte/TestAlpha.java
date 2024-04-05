@@ -1,7 +1,7 @@
 package com.bonfonte;
 
 import org.junit.Test;
-import com.bonfonte.alpha.Alpha;
+import com.bonfonte.experiment.alpha.Alpha;
 
 public class TestAlpha{
 

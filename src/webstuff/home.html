@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test pad</title>
+</head>
+
+<script>
+  import { of, Observable } from "rxjs";
+  function getObservableFoo() {
+    return Observable.create(
+        observer => (
+          const foolist = [
+            {name: "fib1", value: 1},
+            {name: "fib2", value: 1},
+            {name: "fib3", value: 2},
+            {name: "fib4", value: 3},
+            {name: "fib5", value: 5}
+          ];
+          foolist.forEach(foo => observer.next(foo));
+          observer.complate();
+        );
+    );
+  } // End of function to create Observable
+
+
+
+</script>
+<body>
+
+</body>
+</html>
